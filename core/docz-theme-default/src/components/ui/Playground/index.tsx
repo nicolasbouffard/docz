@@ -109,6 +109,7 @@ export const Playground: SFC<PlaygroundProps> = ({
   style,
   scope,
   wrapper: CustomWrapper = Fragment,
+  editorCode,
 }) => {
   const { themeConfig, native } = useConfig()
   const initialShowEditor = getter(themeConfig, 'showPlaygroundEditor')
@@ -125,6 +126,7 @@ export const Playground: SFC<PlaygroundProps> = ({
   const [height, setHeight] = useState(() => initialHeight)
   const [showEditor, setShowEditor] = useState(() => Boolean(initialShowEditor))
   const showErrors = getter(themeConfig, 'showLiveError')
+  const editorCodeIsOverriden = !!editorCode
 
   const state = {
     fullscreen,
@@ -269,15 +271,23 @@ export const Playground: SFC<PlaygroundProps> = ({
               {showErrors && <StyledError />}
             </PreviewWrapper>
             <ActionsBar
-              {...{ fullscreen, showEditor, code }}
+              {...{
+                fullscreen,
+                showEditor,
+                code: editorCodeIsOverriden ? (editorCode as string) : code,
+              }}
               codesandboxUrl={codesandboxUrl(native)}
               onClickRefresh={handleRefresh}
               onClickEditor={handleToggleShowEditor}
               onClickFullscreen={handleToggleFullscreen}
             />
             {showEditor && (
-              <Pre {...editorProps} onChange={setCode} readOnly={false}>
-                {code}
+              <Pre
+                {...editorProps}
+                onChange={setCode}
+                readOnly={editorCodeIsOverriden}
+              >
+                {editorCodeIsOverriden ? (editorCode as string) : code}
               </Pre>
             )}
           </Wrapper>

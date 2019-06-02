@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **gatsby-theme-docz:** add specific nodes for entries ([26f7f90](http://nicolasbouffard/docz/commits/26f7f90))
+* **gatsby-theme-docz:** add ssr support for styled-components ([b490010](http://nicolasbouffard/docz/commits/b490010))
+* add missing dependency on examples ([af8ec2d](http://nicolasbouffard/docz/commits/af8ec2d))
+* define right internal dependencies version ([30a91b4](http://nicolasbouffard/docz/commits/30a91b4))
+* gatsby theme fixes ([dcc5f19](http://nicolasbouffard/docz/commits/dcc5f19))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+
+
+
+
+
 # [1.2.0](https://github.com/pedronauck/docz/compare/v1.1.0...v1.2.0) (2019-05-08)
 
 **Note:** Version bump only for package docz-example-gatsby

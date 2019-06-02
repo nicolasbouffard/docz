@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz:** crash using suspense ([315f7ad](http://nicolasbouffard/docz/commits/315f7ad))
+* **docz-core:** prevent watch in production ([d673262](http://nicolasbouffard/docz/commits/d673262))
+* **gatsby-theme-docz:** add null fields for entries ([b0409a8](http://nicolasbouffard/docz/commits/b0409a8))
+* **gatsby-theme-docz:** add specific nodes for entries ([26f7f90](http://nicolasbouffard/docz/commits/26f7f90))
+* **gatsby-theme-docz:** add ssr support for styled-components ([b490010](http://nicolasbouffard/docz/commits/b490010))
+* **gatsby-theme-docz:** check data before access ([8f8ed12](http://nicolasbouffard/docz/commits/8f8ed12))
+* **gatsby-theme-docz:** check entries before find on it ([8565128](http://nicolasbouffard/docz/commits/8565128))
+* **gatsby-theme-docz:** create pages hook ([2f5765e](http://nicolasbouffard/docz/commits/2f5765e))
+* **gatsby-theme-docz:** don't add base to page path ([#756](http://nicolasbouffard/docz/issues/756)) ([a9ff519](http://nicolasbouffard/docz/commits/a9ff519))
+* bump internal versions ([1658aaf](http://nicolasbouffard/docz/commits/1658aaf))
+* **gatsby-theme-docz:** hot reload ([bf4e440](http://nicolasbouffard/docz/commits/bf4e440))
+* define right internal dependencies version ([30a91b4](http://nicolasbouffard/docz/commits/30a91b4))
+* gatsby theme fixes ([dcc5f19](http://nicolasbouffard/docz/commits/dcc5f19))
+* **gatsby-theme-docz:** menu field on entry source node ([05457f2](http://nicolasbouffard/docz/commits/05457f2))
+* **gatsby-theme-docz:** readme typo ([9e3314a](http://nicolasbouffard/docz/commits/9e3314a))
+* **gatsby-theme-docz:** throws false for json stringify ([289ca75](http://nicolasbouffard/docz/commits/289ca75))
+* **gatsby-theme-docz:** use createPages instead of createPagesStatefully ([37b73c6](http://nicolasbouffard/docz/commits/37b73c6))
+* some general adjustments ([0c61f64](http://nicolasbouffard/docz/commits/0c61f64))
+* **gatsby-theme-docz:** use options from gatsby-config ([#665](http://nicolasbouffard/docz/issues/665)) ([c694bdf](http://nicolasbouffard/docz/commits/c694bdf))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add playground component ([cde6511](http://nicolasbouffard/docz/commits/cde6511))
+* **gatsby-theme-docz:** add custom theme support ([fdfddcb](http://nicolasbouffard/docz/commits/fdfddcb))
+* **gatsby-theme-docz:** add wrapper support ([a99d62f](http://nicolasbouffard/docz/commits/a99d62f))
+
+
+
+
+
 # [1.2.0](https://github.com/pedronauck/docz/compare/v1.1.0...v1.2.0) (2019-05-08)
 
 **Note:** Version bump only for package gatsby-theme-docz

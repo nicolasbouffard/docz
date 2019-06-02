@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz-core:** copy templates files for dist ([#88](http://nicolasbouffard/docz/issues/88)) ([5e4b98d](http://nicolasbouffard/docz/commits/5e4b98d))
+* **docz-example-flow:** scale and outline props ([#211](http://nicolasbouffard/docz/issues/211)) ([3709f88](http://nicolasbouffard/docz/commits/3709f88))
+* add missing dependency on examples ([af8ec2d](http://nicolasbouffard/docz/commits/af8ec2d))
+
+
+### Features
+
+* **docz:** move docz/docz-core to dev dependency on examples ([e7153a4](http://nicolasbouffard/docz/commits/e7153a4))
+* **docz-default-theme:** dark mode and responsiveness ([#87](http://nicolasbouffard/docz/issues/87)) ([a4db115](http://nicolasbouffard/docz/commits/a4db115)), closes [#81](http://nicolasbouffard/docz/issues/81)
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add native support for react-native ([f998874](http://nicolasbouffard/docz/commits/f998874))
+* create menu based on doczrc property ([94b4467](http://nicolasbouffard/docz/commits/94b4467))
+* integration with react native ([#271](http://nicolasbouffard/docz/issues/271)) ([ac359ce](http://nicolasbouffard/docz/commits/ac359ce))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

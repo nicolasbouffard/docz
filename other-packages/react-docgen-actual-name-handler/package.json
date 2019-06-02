@@ -1,6 +1,6 @@
 {
   "name": "react-docgen-actual-name-handler",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -22,7 +22,7 @@
     "recast": "^0.17.6"
   },
   "devDependencies": {
-    "docz-rollup": "^2.0.0",
-    "eslint-config-docz": "^2.0.0"
+    "docz-rollup": "^3.0.0",
+    "eslint-config-docz": "^3.0.0"
   }
 }

@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* define right internal dependencies version ([30a91b4](http://nicolasbouffard/docz/commits/30a91b4))
+* gatsby theme fixes ([dcc5f19](http://nicolasbouffard/docz/commits/dcc5f19))
+* prop types parser ([a3cc319](http://nicolasbouffard/docz/commits/a3cc319))
+* **docz-theme-default:** add active class manually for gatsby ([c3faed3](http://nicolasbouffard/docz/commits/c3faed3))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* **docz:** non latin menu headings ([#840](http://nicolasbouffard/docz/issues/840)) ([80b186c](http://nicolasbouffard/docz/commits/80b186c))
+* **docz-rollup:** fixed rollup configs to be Windows tolerant ([#812](http://nicolasbouffard/docz/issues/812)) ([10f6bfd](http://nicolasbouffard/docz/commits/10f6bfd))
+* **docz-theme-default:** active menu link ([5e04e0d](http://nicolasbouffard/docz/commits/5e04e0d))
+* **docz-theme-default:** allow ts import of docz-theme-default ([#746](http://nicolasbouffard/docz/issues/746)) ([a56ca42](http://nicolasbouffard/docz/commits/a56ca42))
+* **docz-theme-default:** allow use of link component in ssr ([#854](http://nicolasbouffard/docz/issues/854)) ([90c27e0](http://nicolasbouffard/docz/commits/90c27e0)), closes [#832](http://nicolasbouffard/docz/issues/832)
+* **docz-theme-default:** allows hamburger menu to be opened on mobile ([#698](http://nicolasbouffard/docz/issues/698)) ([fd06381](http://nicolasbouffard/docz/commits/fd06381))
+* **docz-theme-default:** fix padding in Playground elements ([4af7376](http://nicolasbouffard/docz/commits/4af7376)), closes [/github.com/pedronauck/docz/issues/398#issuecomment-453663552](http://nicolasbouffard/docz/issues/issuecomment-453663552)
+* **docz-theme-default:** force codemirror to refresh ([#637](http://nicolasbouffard/docz/issues/637)) ([#638](http://nicolasbouffard/docz/issues/638)) ([e745c7d](http://nicolasbouffard/docz/commits/e745c7d))
+* **docz-theme-default:** logo link point to dynamic base ([#815](http://nicolasbouffard/docz/issues/815)) ([f7cc750](http://nicolasbouffard/docz/commits/f7cc750))
+* **docz-theme-default:** mobile menu following anchor clicks ([#713](http://nicolasbouffard/docz/issues/713)) ([e3bbf1a](http://nicolasbouffard/docz/commits/e3bbf1a))
+* **docz-theme-default:** overlay just for mobile resolutions ([a927389](http://nicolasbouffard/docz/commits/a927389))
+* **docz-theme-default:** react live error size ([7f2e0ff](http://nicolasbouffard/docz/commits/7f2e0ff))
+* **docz-theme-default:** rollback react-live ([cd8b4ab](http://nicolasbouffard/docz/commits/cd8b4ab))
+* **docz-theme-default:** show cursor on playground editor focus ([9f99c30](http://nicolasbouffard/docz/commits/9f99c30))
+* **docz-theme-default:** show heading anchor on hover ([3e453f5](http://nicolasbouffard/docz/commits/3e453f5))
+* **docz-theme-default:** stop nested ul from rendering flat ([#714](http://nicolasbouffard/docz/issues/714)) ([2711e6d](http://nicolasbouffard/docz/commits/2711e6d))
+* **docz-theme-default:** styled error margin ([53104e8](http://nicolasbouffard/docz/commits/53104e8))
+* **docz-theme-default:** styles adjustments ([aca1bee](http://nicolasbouffard/docz/commits/aca1bee))
+* **docz-theme-default:** support absolute page elements ([#683](http://nicolasbouffard/docz/issues/683)) ([a4ced2b](http://nicolasbouffard/docz/commits/a4ced2b))
+* **docz-theme-default:** table media query style ([#782](http://nicolasbouffard/docz/issues/782)) ([205ce75](http://nicolasbouffard/docz/commits/205ce75))
+* window check ([cfbda29](http://nicolasbouffard/docz/commits/cfbda29))
+* wrapper property is ignored in <Playground> ([3cda0de](http://nicolasbouffard/docz/commits/3cda0de))
+* **docz-theme-default:** toggle active links on location change ([#666](http://nicolasbouffard/docz/issues/666)) ([1274b97](http://nicolasbouffard/docz/commits/1274b97))
+* **docz-theme-default:** useMemo with conditional ([3b653e5](http://nicolasbouffard/docz/commits/3b653e5))
+* **load-cfg:** use babel register in order to require using es6 ([7ad3b64](http://nicolasbouffard/docz/commits/7ad3b64))
+
+
+### Features
+
+* use @reach/router instead of react-router ([81a4a82](http://nicolasbouffard/docz/commits/81a4a82))
+* **docz-core:** allow to override the editor code ([1d7aafe](http://nicolasbouffard/docz/commits/1d7aafe))
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add playground component ([cde6511](http://nicolasbouffard/docz/commits/cde6511))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+* split router logic from theme ([a9c26e6](http://nicolasbouffard/docz/commits/a9c26e6))
+* **docz-theme-default:** add Editor to component exports ([#750](http://nicolasbouffard/docz/issues/750)) ([58b3eb5](http://nicolasbouffard/docz/commits/58b3eb5))
+* **docz-theme-default:** add options to the props component ([#823](http://nicolasbouffard/docz/issues/823)) ([9edaac8](http://nicolasbouffard/docz/commits/9edaac8))
+* **docz-theme-default:** allow to hide the LiveError overlay ([8ffa7aa](http://nicolasbouffard/docz/commits/8ffa7aa))
+* **docz-theme-default:** automatically render links with relative path ([624bbf0](http://nicolasbouffard/docz/commits/624bbf0))
+* **docz-theme-default:** use styled-components instead of emotion ([19047fd](http://nicolasbouffard/docz/commits/19047fd))
+* **gatsby-theme-docz:** add custom theme support ([fdfddcb](http://nicolasbouffard/docz/commits/fdfddcb))
+
+
+### BREAKING CHANGES
+
+* <Playground> does not wrap the component anymore before
+passing it to the renderer. Instead it passes the wrapper explicitly to
+the renderer, making it the renderer's duty to apply the wrapper.
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

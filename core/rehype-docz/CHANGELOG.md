@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **rehype-docz:** update tests ([548f940](http://nicolasbouffard/docz/commits/548f940))
+* remove modularized lodash packages ([d81c568](http://nicolasbouffard/docz/commits/d81c568))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

@@ -3,6 +3,74 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* a lot of bug fixes ([c10a8bd](http://nicolasbouffard/docz/commits/c10a8bd))
+* correct props loading ([#836](http://nicolasbouffard/docz/issues/836)) ([ed85f14](http://nicolasbouffard/docz/commits/ed85f14))
+* docgen parsing default export ([#766](http://nicolasbouffard/docz/issues/766)) ([c7c7bc7](http://nicolasbouffard/docz/commits/c7c7bc7))
+* **docz:** remove config conditional from hooks ([6b6f134](http://nicolasbouffard/docz/commits/6b6f134))
+* gatsby theme fixes ([dcc5f19](http://nicolasbouffard/docz/commits/dcc5f19))
+* **docz:** add loading indicator for routes ([1c338f3](http://nicolasbouffard/docz/commits/1c338f3))
+* **docz:** add window check to useWindowSize hook ([#669](http://nicolasbouffard/docz/issues/669)) ([e4d7cb4](http://nicolasbouffard/docz/commits/e4d7cb4))
+* **docz:** crash using suspense ([315f7ad](http://nicolasbouffard/docz/commits/315f7ad))
+* **docz:** export ThemeProps interface ([#745](http://nicolasbouffard/docz/issues/745)) ([aea9588](http://nicolasbouffard/docz/commits/aea9588))
+* **docz:** incompatible props on Link ([281cb13](http://nicolasbouffard/docz/commits/281cb13))
+* **docz:** merge menus on useMenus ([af4afe2](http://nicolasbouffard/docz/commits/af4afe2))
+* **docz:** merge new config for useConfig hook ([c63bbc8](http://nicolasbouffard/docz/commits/c63bbc8))
+* **docz:** non latin menu headings ([#840](http://nicolasbouffard/docz/issues/840)) ([80b186c](http://nicolasbouffard/docz/commits/80b186c))
+* **docz:** optional opts for useMenus() ([571ffcd](http://nicolasbouffard/docz/commits/571ffcd))
+* **docz:** props parser for build ([31612e7](http://nicolasbouffard/docz/commits/31612e7))
+* **docz:** remove deduplicated search results (thanks [@ivan-dalmet](http://nicolasbouffard/ivan-dalmet)) ([1b456f7](http://nicolasbouffard/docz/commits/1b456f7))
+* prop types parser ([a3cc319](http://nicolasbouffard/docz/commits/a3cc319))
+* **docz:** remove null return on routes ([5bbbbb3](http://nicolasbouffard/docz/commits/5bbbbb3))
+* **docz:** sort menu and submenus alphabetically ([fbbd51c](http://nicolasbouffard/docz/commits/fbbd51c))
+* **docz:** use @loadable/component instead of react-imported-component ([18f02f2](http://nicolasbouffard/docz/commits/18f02f2))
+* **docz-core:** base prop for router ([9ca39d7](http://nicolasbouffard/docz/commits/9ca39d7))
+* **docz-core:** prevent watch in production ([d673262](http://nicolasbouffard/docz/commits/d673262))
+* **gatsby-theme-docz:** hot reload ([bf4e440](http://nicolasbouffard/docz/commits/bf4e440))
+* remove modularized lodash packages ([d81c568](http://nicolasbouffard/docz/commits/d81c568))
+* scroll to anchor if url has hash ([389577f](http://nicolasbouffard/docz/commits/389577f))
+* some general adjustments ([0c61f64](http://nicolasbouffard/docz/commits/0c61f64))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* use lodash merge instead of deepmerge ([18ac37b](http://nicolasbouffard/docz/commits/18ac37b))
+* **docz-core:** typescript doesn't work with several exports ([#771](http://nicolasbouffard/docz/issues/771)) ([c96878d](http://nicolasbouffard/docz/commits/c96878d))
+* window check ([cfbda29](http://nicolasbouffard/docz/commits/cfbda29))
+* wrapper property is ignored in <Playground> ([3cda0de](http://nicolasbouffard/docz/commits/3cda0de))
+* **docz-rollup:** fixed rollup configs to be Windows tolerant ([#812](http://nicolasbouffard/docz/issues/812)) ([10f6bfd](http://nicolasbouffard/docz/commits/10f6bfd))
+* **docz-theme-default:** logo link point to dynamic base ([#815](http://nicolasbouffard/docz/issues/815)) ([f7cc750](http://nicolasbouffard/docz/commits/f7cc750))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add playground component ([cde6511](http://nicolasbouffard/docz/commits/cde6511))
+* docgen refactoring ([#545](http://nicolasbouffard/docz/issues/545)) ([85499a8](http://nicolasbouffard/docz/commits/85499a8))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+* split router logic from theme ([a9c26e6](http://nicolasbouffard/docz/commits/a9c26e6))
+* use @reach/router instead of react-router ([81a4a82](http://nicolasbouffard/docz/commits/81a4a82))
+* **docz:** add filter option for useMenus ([aeeb311](http://nicolasbouffard/docz/commits/aeeb311))
+* **docz:** hooks migrations ([f57f987](http://nicolasbouffard/docz/commits/f57f987))
+* **docz:** use getInitialProps instead of getInitialData ([d4406e0](http://nicolasbouffard/docz/commits/d4406e0))
+* **docz-core:** allow to override the editor code ([1d7aafe](http://nicolasbouffard/docz/commits/1d7aafe))
+* **docz-core:** extended path configuration for docgen ([#846](http://nicolasbouffard/docz/issues/846)) ([aa96739](http://nicolasbouffard/docz/commits/aa96739))
+* **docz-core:** remove ordering deprecated field ([39660bb](http://nicolasbouffard/docz/commits/39660bb))
+* **docz-theme-default:** add options to the props component ([#823](http://nicolasbouffard/docz/issues/823)) ([9edaac8](http://nicolasbouffard/docz/commits/9edaac8))
+* **docz-theme-default:** use styled-components instead of emotion ([19047fd](http://nicolasbouffard/docz/commits/19047fd))
+
+
+### BREAKING CHANGES
+
+* <Playground> does not wrap the component anymore before
+passing it to the renderer. Instead it passes the wrapper explicitly to
+the renderer, making it the renderer's duty to apply the wrapper.
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

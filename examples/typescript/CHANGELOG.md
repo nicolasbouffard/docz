@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz-core:** copy templates files for dist ([#88](http://nicolasbouffard/docz/issues/88)) ([5e4b98d](http://nicolasbouffard/docz/commits/5e4b98d))
+* **docz-core:** typescript resolve extensions ([689b057](http://nicolasbouffard/docz/commits/689b057))
+* **docz-core:** use webpack-dev-server instead of webpack-serve ([4157e05](http://nicolasbouffard/docz/commits/4157e05))
+* **docz-example-typescript:** fix dependencies ([#222](http://nicolasbouffard/docz/issues/222)) ([67e68aa](http://nicolasbouffard/docz/commits/67e68aa))
+* add missing dependency on examples ([af8ec2d](http://nicolasbouffard/docz/commits/af8ec2d))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* create menu based on doczrc property ([94b4467](http://nicolasbouffard/docz/commits/94b4467))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+* **docz-core:** add cache for typescript props parsing ([552a6fc](http://nicolasbouffard/docz/commits/552a6fc))
+* **docz-default-theme:** dark mode and responsiveness ([#87](http://nicolasbouffard/docz/issues/87)) ([a4db115](http://nicolasbouffard/docz/commits/a4db115)), closes [#81](http://nicolasbouffard/docz/issues/81)
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

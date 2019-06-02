@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* docgen parsing default export ([#766](http://nicolasbouffard/docz/issues/766)) ([c7c7bc7](http://nicolasbouffard/docz/commits/c7c7bc7))
+* get component filename relative (fix [#706](http://nicolasbouffard/docz/issues/706)) ([84b23ea](http://nicolasbouffard/docz/commits/84b23ea))
+* prop types parser ([a3cc319](http://nicolasbouffard/docz/commits/a3cc319))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* **babel-plugin-export-metadata:** avoid adding __filemeta to non-extensible objects ([#798](http://nicolasbouffard/docz/issues/798)) ([794ebc4](http://nicolasbouffard/docz/commits/794ebc4))
+* **babel-plugin-export-metadata:** fix re-export default ([#790](http://nicolasbouffard/docz/issues/790)) ([#791](http://nicolasbouffard/docz/issues/791)) ([89b3928](http://nicolasbouffard/docz/commits/89b3928))
+* **babel-plugin-export-metadata:** just define pro non-primitive types ([ed78a13](http://nicolasbouffard/docz/commits/ed78a13))
+* **babel-plugin-export-metadata:** prettier fix script ([3a34b72](http://nicolasbouffard/docz/commits/3a34b72))
+* **babel-plugin-export-metadata:** re-export causes meta error ([#805](http://nicolasbouffard/docz/issues/805)) ([9401676](http://nicolasbouffard/docz/commits/9401676))
+* **babel-plugin-export-metadata:** remove cache folders from parse ([2978a26](http://nicolasbouffard/docz/commits/2978a26))
+* **babel-plugin-export-metadata:** update snapshot test ([6ca7b87](http://nicolasbouffard/docz/commits/6ca7b87))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* docgen refactoring ([#545](http://nicolasbouffard/docz/issues/545)) ([85499a8](http://nicolasbouffard/docz/commits/85499a8))
+* **docz-core:** add config not use specifiers ([#849](http://nicolasbouffard/docz/issues/849)) ([d8595a9](http://nicolasbouffard/docz/commits/d8595a9))
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

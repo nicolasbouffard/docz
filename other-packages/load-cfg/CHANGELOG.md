@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **load-cfg:** merge default config on load ([d3b4bc6](http://nicolasbouffard/docz/commits/d3b4bc6))
+* **load-cfg:** use babel register in order to require using es6 ([7ad3b64](http://nicolasbouffard/docz/commits/7ad3b64))
+* immutable merge with lodash ([2fe94d4](http://nicolasbouffard/docz/commits/2fe94d4))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* use lodash merge instead of deepmerge ([18ac37b](http://nicolasbouffard/docz/commits/18ac37b))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

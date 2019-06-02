@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v3.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz:** add theme config transform before merge ([dc3448a](http://nicolasbouffard/docz/commits/dc3448a))
+* **docz:** conditionally description column on PropsTable ([#385](http://nicolasbouffard/docz/issues/385)) ([829a3aa](http://nicolasbouffard/docz/commits/829a3aa)), closes [#427](http://nicolasbouffard/docz/issues/427) [#421](http://nicolasbouffard/docz/issues/421)
+* **docz-core:** copy templates files for dist ([#88](http://nicolasbouffard/docz/issues/88)) ([5e4b98d](http://nicolasbouffard/docz/commits/5e4b98d))
+* add missing dependency on examples ([af8ec2d](http://nicolasbouffard/docz/commits/af8ec2d))
+
+
+### Features
+
+* **docz:** move docz/docz-core to dev dependency on examples ([e7153a4](http://nicolasbouffard/docz/commits/e7153a4))
+* **docz-default-theme:** dark mode and responsiveness ([#87](http://nicolasbouffard/docz/issues/87)) ([a4db115](http://nicolasbouffard/docz/commits/a4db115)), closes [#81](http://nicolasbouffard/docz/issues/81)
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add playground component ([cde6511](http://nicolasbouffard/docz/commits/cde6511))
+* create menu based on doczrc property ([94b4467](http://nicolasbouffard/docz/commits/94b4467))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+
+
+
+
+
 # [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
 
 

@@ -3,6 +3,79 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz-core:** initialize config state on data server start ([#678](http://nicolasbouffard/docz/issues/678)) ([8c740b8](http://nicolasbouffard/docz/commits/8c740b8))
+* a lot of bug fixes ([c10a8bd](http://nicolasbouffard/docz/commits/c10a8bd))
+* correct props loading ([#836](http://nicolasbouffard/docz/issues/836)) ([ed85f14](http://nicolasbouffard/docz/commits/ed85f14))
+* define right internal dependencies version ([30a91b4](http://nicolasbouffard/docz/commits/30a91b4))
+* get component filename relative (fix [#706](http://nicolasbouffard/docz/issues/706)) ([84b23ea](http://nicolasbouffard/docz/commits/84b23ea))
+* immutable merge with lodash ([2fe94d4](http://nicolasbouffard/docz/commits/2fe94d4))
+* pin typescript version ([8ae97d3](http://nicolasbouffard/docz/commits/8ae97d3))
+* remove data server from build ([8715129](http://nicolasbouffard/docz/commits/8715129))
+* some general adjustments ([0c61f64](http://nicolasbouffard/docz/commits/0c61f64))
+* **docz-core:** add spaces when write db.json ([3a84af3](http://nicolasbouffard/docz/commits/3a84af3))
+* **docz-core:** add src as prefix on ignore ([2bae93b](http://nicolasbouffard/docz/commits/2bae93b))
+* **docz-core:** add typescript as dependency ([9f314cd](http://nicolasbouffard/docz/commits/9f314cd))
+* **docz-core:** apply mdast plugins to entries parse too ([c2554b8](http://nicolasbouffard/docz/commits/c2554b8))
+* **docz-core:** base prop for router ([9ca39d7](http://nicolasbouffard/docz/commits/9ca39d7))
+* **docz-core:** config passed on argv ([12f6385](http://nicolasbouffard/docz/commits/12f6385))
+* use lodash merge instead of deepmerge ([18ac37b](http://nicolasbouffard/docz/commits/18ac37b))
+* **docz-core:** default ignore paths ([#754](http://nicolasbouffard/docz/issues/754)) ([80b0956](http://nicolasbouffard/docz/commits/80b0956))
+* **docz-core:** docgen if file has not component definition ([b0fb846](http://nicolasbouffard/docz/commits/b0fb846))
+* **docz-core:** entries not initialized on build ([#725](http://nicolasbouffard/docz/issues/725)) ([3e99db0](http://nicolasbouffard/docz/commits/3e99db0))
+* **docz-core:** exclude node modules from source map loader ([1c7c9f7](http://nicolasbouffard/docz/commits/1c7c9f7))
+* **docz-core:** hot loader and mdx plugins ([0531d65](http://nicolasbouffard/docz/commits/0531d65))
+* **docz-core:** invalid route on Windows ([#748](http://nicolasbouffard/docz/issues/748)) ([d3a4f6f](http://nicolasbouffard/docz/commits/d3a4f6f))
+* **docz-core:** mdx loader options ([9114f9b](http://nicolasbouffard/docz/commits/9114f9b))
+* **docz-core:** mount route with base ([7f8bffe](http://nicolasbouffard/docz/commits/7f8bffe))
+* **docz-core:** pin acorn to the right version ([a5e1228](http://nicolasbouffard/docz/commits/a5e1228))
+* **docz-core:** prevent watch in production ([d673262](http://nicolasbouffard/docz/commits/d673262))
+* **docz-core:** props state parser ([87767e8](http://nicolasbouffard/docz/commits/87767e8))
+* **docz-core:** react docgen typescript performance ([2967e7c](http://nicolasbouffard/docz/commits/2967e7c))
+* **docz-core:** remove DataServer from production build ([b8770ec](http://nicolasbouffard/docz/commits/b8770ec))
+* **docz-core:** remove dev things from prod build ([3f5b5d7](http://nicolasbouffard/docz/commits/3f5b5d7))
+* **docz-core:** remove order from Entry class ([e12c37d](http://nicolasbouffard/docz/commits/e12c37d))
+* **docz-core:** resolve symlinks right for the react-docgen ([#699](http://nicolasbouffard/docz/issues/699)) ([783a836](http://nicolasbouffard/docz/commits/783a836))
+* **docz-core:** return http server on bundler.start() ([cdba3bf](http://nicolasbouffard/docz/commits/cdba3bf))
+* **docz-core:** run right hook name ([f500971](http://nicolasbouffard/docz/commits/f500971))
+* **docz-core:** typescript doesn't work with several exports ([#771](http://nicolasbouffard/docz/issues/771)) ([c96878d](http://nicolasbouffard/docz/commits/c96878d))
+* **docz-core:** write first imports ([b856168](http://nicolasbouffard/docz/commits/b856168))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* **docz-theme-default:** apply ignore in props parsing ([#723](http://nicolasbouffard/docz/issues/723)) ([6dd068c](http://nicolasbouffard/docz/commits/6dd068c))
+* **gatsby-theme-docz:** menu field on entry source node ([05457f2](http://nicolasbouffard/docz/commits/05457f2))
+* **gatsby-theme-docz:** use createPages instead of createPagesStatefully ([37b73c6](http://nicolasbouffard/docz/commits/37b73c6))
+* **load-cfg:** use babel register in order to require using es6 ([7ad3b64](http://nicolasbouffard/docz/commits/7ad3b64))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* add playground component ([cde6511](http://nicolasbouffard/docz/commits/cde6511))
+* **docz-core:** add watchIgnored config ([#741](http://nicolasbouffard/docz/issues/741)) ([a0c52db](http://nicolasbouffard/docz/commits/a0c52db))
+* docgen refactoring ([#545](http://nicolasbouffard/docz/issues/545)) ([85499a8](http://nicolasbouffard/docz/commits/85499a8))
+* **docz-core:** add cache for typescript props parsing ([552a6fc](http://nicolasbouffard/docz/commits/552a6fc))
+* **docz-core:** add clearConsole option ([010f2bc](http://nicolasbouffard/docz/commits/010f2bc))
+* **docz-core:** add config docgen ts resolver ([#848](http://nicolasbouffard/docz/issues/848)) ([256b600](http://nicolasbouffard/docz/commits/256b600))
+* **docz-core:** add config not use specifiers ([#849](http://nicolasbouffard/docz/issues/849)) ([d8595a9](http://nicolasbouffard/docz/commits/d8595a9))
+* **docz-core:** add filterComponents option ([e78ae15](http://nicolasbouffard/docz/commits/e78ae15))
+* **docz-core:** add serve command ([#855](http://nicolasbouffard/docz/issues/855)) ([73311bd](http://nicolasbouffard/docz/commits/73311bd))
+* **docz-core:** auto open browser when start dev mode ([#774](http://nicolasbouffard/docz/issues/774)) ([c0e6c13](http://nicolasbouffard/docz/commits/c0e6c13))
+* **docz-core:** extended path configuration for docgen ([#846](http://nicolasbouffard/docz/issues/846)) ([aa96739](http://nicolasbouffard/docz/commits/aa96739))
+* **docz-core:** remove ordering deprecated field ([39660bb](http://nicolasbouffard/docz/commits/39660bb))
+* **docz-core:** support for configuring the separator during slugifying ([10bb134](http://nicolasbouffard/docz/commits/10bb134))
+* **docz-core:** use react-dev-utils create compiler ([4d062de](http://nicolasbouffard/docz/commits/4d062de))
+* **gatsby-theme-docz:** add custom theme support ([fdfddcb](http://nicolasbouffard/docz/commits/fdfddcb))
+* split router logic from theme ([a9c26e6](http://nicolasbouffard/docz/commits/a9c26e6))
+* use @reach/router instead of react-router ([81a4a82](http://nicolasbouffard/docz/commits/81a4a82))
+
+
+
+
+
 # [1.2.0](https://github.com/pedronauck/docz/compare/v1.1.0...v1.2.0) (2019-05-08)
 
 

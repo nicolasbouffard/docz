@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **docz-core:** apply mdast plugins to entries parse too ([c2554b8](http://nicolasbouffard/docz/commits/c2554b8))
+* **docz-utils:** add docz imports on react live scope ([01004ed](http://nicolasbouffard/docz/commits/01004ed))
+* **docz-utils:** extract headings from ast ([9f8565b](http://nicolasbouffard/docz/commits/9f8565b))
+* **docz-utils:** parser config for prettier ([54ad0fa](http://nicolasbouffard/docz/commits/54ad0fa))
+* remove modularized lodash packages ([d81c568](http://nicolasbouffard/docz/commits/d81c568))
+* some general adjustments ([0c61f64](http://nicolasbouffard/docz/commits/0c61f64))
+* trim whitespaces before and after class ([a184913](http://nicolasbouffard/docz/commits/a184913))
+* use custom rollup config to build instead of libundler ([ee42a5a](http://nicolasbouffard/docz/commits/ee42a5a))
+* use lodash merge instead of deepmerge ([18ac37b](http://nicolasbouffard/docz/commits/18ac37b))
+
+
+### Features
+
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* docgen refactoring ([#545](http://nicolasbouffard/docz/issues/545)) ([85499a8](http://nicolasbouffard/docz/commits/85499a8))
+
+
+
+
+
 # [1.2.0](https://github.com/pedronauck/docz/compare/v1.1.0...v1.2.0) (2019-05-08)
 
 **Note:** Version bump only for package docz-utils

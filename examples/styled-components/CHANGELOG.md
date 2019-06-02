@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](http://nicolasbouffard/docz/compare/v0.2.0...v2.0.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* add missing dependency on examples ([af8ec2d](http://nicolasbouffard/docz/commits/af8ec2d))
+
+
+### Features
+
+* **docz-example-styled-components:** add new example ([0cef75e](http://nicolasbouffard/docz/commits/0cef75e))
+* add initial gatsby integration ([#630](http://nicolasbouffard/docz/issues/630)) ([70d40cc](http://nicolasbouffard/docz/commits/70d40cc)), closes [#609](http://nicolasbouffard/docz/issues/609)
+* create menu based on doczrc property ([94b4467](http://nicolasbouffard/docz/commits/94b4467))
+* new Props component ([80451b1](http://nicolasbouffard/docz/commits/80451b1))
+
+
+
+
+
 # [1.2.0](https://github.com/pedronauck/docz/compare/v1.1.0...v1.2.0) (2019-05-08)
 
 **Note:** Version bump only for package docz-example-styled-components
